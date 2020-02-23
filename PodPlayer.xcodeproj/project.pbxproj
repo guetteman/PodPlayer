@@ -16,6 +16,8 @@
 		E2078C6523FCB71900E5C567 /* SWXMLHash.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2078C6423FCB71900E5C567 /* SWXMLHash.swift */; };
 		E223F11B2402EC07007DAB14 /* EpisodesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E223F11A2402EC07007DAB14 /* EpisodesViewController.swift */; };
 		E223F11D2402EE1D007DAB14 /* TheSplitController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E223F11C2402EE1D007DAB14 /* TheSplitController.swift */; };
+		E223F11F2402F8C9007DAB14 /* Episode.swift in Sources */ = {isa = PBXBuildFile; fileRef = E223F11E2402F8C9007DAB14 /* Episode.swift */; };
+		E223F12724032514007DAB14 /* EpisodeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E223F12624032514007DAB14 /* EpisodeCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,9 @@
 		E2078C6423FCB71900E5C567 /* SWXMLHash.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SWXMLHash.swift; sourceTree = "<group>"; };
 		E223F11A2402EC07007DAB14 /* EpisodesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodesViewController.swift; sourceTree = "<group>"; };
 		E223F11C2402EE1D007DAB14 /* TheSplitController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheSplitController.swift; sourceTree = "<group>"; };
+		E223F11E2402F8C9007DAB14 /* Episode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Episode.swift; sourceTree = "<group>"; };
+		E223F12124030AEB007DAB14 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		E223F12624032514007DAB14 /* EpisodeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +54,7 @@
 			children = (
 				E2078C4C23FCA1F100E5C567 /* PodPlayer */,
 				E2078C4B23FCA1F100E5C567 /* Products */,
+				E223F12024030AEB007DAB14 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -68,7 +74,9 @@
 				E223F11C2402EE1D007DAB14 /* TheSplitController.swift */,
 				E2078C6023FCA97100E5C567 /* PodcastsViewController.swift */,
 				E223F11A2402EC07007DAB14 /* EpisodesViewController.swift */,
+				E223F12624032514007DAB14 /* EpisodeCell.swift */,
 				E2078C6223FCB3D700E5C567 /* Parser.swift */,
+				E223F11E2402F8C9007DAB14 /* Episode.swift */,
 				E2078C5423FCA1F300E5C567 /* Assets.xcassets */,
 				E2078C5623FCA1F300E5C567 /* Main.storyboard */,
 				E2078C5923FCA1F300E5C567 /* Info.plist */,
@@ -84,6 +92,14 @@
 				E2078C6423FCB71900E5C567 /* SWXMLHash.swift */,
 			);
 			path = SWXMLHash;
+			sourceTree = "<group>";
+		};
+		E223F12024030AEB007DAB14 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E223F12124030AEB007DAB14 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -157,12 +173,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				E223F11D2402EE1D007DAB14 /* TheSplitController.swift in Sources */,
+				E223F11F2402F8C9007DAB14 /* Episode.swift in Sources */,
 				E223F11B2402EC07007DAB14 /* EpisodesViewController.swift in Sources */,
 				E2078C6323FCB3D700E5C567 /* Parser.swift in Sources */,
 				E2078C4E23FCA1F100E5C567 /* AppDelegate.swift in Sources */,
 				E2078C6123FCA97100E5C567 /* PodcastsViewController.swift in Sources */,
 				E2078C6523FCB71900E5C567 /* SWXMLHash.swift in Sources */,
 				E2078C5323FCA1F100E5C567 /* PodPlayer.xcdatamodeld in Sources */,
+				E223F12724032514007DAB14 /* EpisodeCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
