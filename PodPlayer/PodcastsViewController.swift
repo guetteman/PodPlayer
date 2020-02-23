@@ -14,6 +14,7 @@ class PodcastsViewController: NSViewController, NSTableViewDataSource, NSTableVi
     @IBOutlet weak var tableView: NSTableView!
     
     var podcasts: [Podcast] = []
+    var episodesVC: EpisodesViewController? = nil
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -101,5 +102,14 @@ class PodcastsViewController: NSViewController, NSTableViewDataSource, NSTableVi
         cell?.textField?.stringValue = podcast.title ?? "unknown title"
         
         return cell
+    }
+    
+    func tableViewSelectionDidChange(_ notification: Notification) {
+        if tableView.selectedRow >= 0 {
+            let podcast = podcasts[tableView.selectedRow]
+            
+            episodesVC?.podcast = podcast
+            episodesVC?.updateView()
+        }
     }
 }

@@ -14,6 +14,8 @@
 		E2078C6123FCA97100E5C567 /* PodcastsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2078C6023FCA97100E5C567 /* PodcastsViewController.swift */; };
 		E2078C6323FCB3D700E5C567 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2078C6223FCB3D700E5C567 /* Parser.swift */; };
 		E2078C6523FCB71900E5C567 /* SWXMLHash.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2078C6423FCB71900E5C567 /* SWXMLHash.swift */; };
+		E223F11B2402EC07007DAB14 /* EpisodesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E223F11A2402EC07007DAB14 /* EpisodesViewController.swift */; };
+		E223F11D2402EE1D007DAB14 /* TheSplitController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E223F11C2402EE1D007DAB14 /* TheSplitController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,8 @@
 		E2078C6023FCA97100E5C567 /* PodcastsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodcastsViewController.swift; sourceTree = "<group>"; };
 		E2078C6223FCB3D700E5C567 /* Parser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
 		E2078C6423FCB71900E5C567 /* SWXMLHash.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SWXMLHash.swift; sourceTree = "<group>"; };
+		E223F11A2402EC07007DAB14 /* EpisodesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodesViewController.swift; sourceTree = "<group>"; };
+		E223F11C2402EE1D007DAB14 /* TheSplitController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheSplitController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +65,9 @@
 			children = (
 				E2078C6623FCB72200E5C567 /* SWXMLHash */,
 				E2078C4D23FCA1F100E5C567 /* AppDelegate.swift */,
+				E223F11C2402EE1D007DAB14 /* TheSplitController.swift */,
 				E2078C6023FCA97100E5C567 /* PodcastsViewController.swift */,
+				E223F11A2402EC07007DAB14 /* EpisodesViewController.swift */,
 				E2078C6223FCB3D700E5C567 /* Parser.swift */,
 				E2078C5423FCA1F300E5C567 /* Assets.xcassets */,
 				E2078C5623FCA1F300E5C567 /* Main.storyboard */,
@@ -150,6 +156,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E223F11D2402EE1D007DAB14 /* TheSplitController.swift in Sources */,
+				E223F11B2402EC07007DAB14 /* EpisodesViewController.swift in Sources */,
 				E2078C6323FCB3D700E5C567 /* Parser.swift in Sources */,
 				E2078C4E23FCA1F100E5C567 /* AppDelegate.swift in Sources */,
 				E2078C6123FCA97100E5C567 /* PodcastsViewController.swift in Sources */,
